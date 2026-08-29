@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Reading Garden Issue 001 — Becoming：我们不是先完成自己，再开始生活。" />
+  <title>Issue 001 — Becoming｜Reading Garden</title>
+  <style>
+    :root{
+      --bg:#f7f4ee;
+      --paper:#fffdf8;
+      --ink:#1f2622;
+      --muted:#68716b;
+      --line:#d9d5cc;
+      --accent:#496556;
+      --accent-soft:#e7eee9;
+      --max:780px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--ink);
+      font-family: ui-serif, Georgia, "Noto Serif SC", "Songti SC", serif;
+      line-height:1.85;
+      letter-spacing:.01em;
+      -webkit-font-smoothing:antialiased;
+    }
+    a{color:inherit}
+    .wrap{width:min(var(--max), calc(100% - 40px)); margin:0 auto;}
+    header{padding:72px 0 42px;}
+    .eyebrow{
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "PingFang SC","Microsoft YaHei",sans-serif;
+      font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; color:var(--muted);
+    }
+    h1{font-size:clamp(2.2rem,7vw,4.8rem); line-height:1.02; margin:.5rem 0 1rem; font-weight:600;}
+    .subtitle{font-size:clamp(1.08rem,3vw,1.35rem); color:var(--accent); max-width:680px;}
+    .meta{margin-top:24px; color:var(--muted); font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif; font-size:.9rem;}
+    .note{
+      background:var(--paper); border:1px solid var(--line); border-radius:20px;
+      padding:28px; margin:20px 0 56px; box-shadow:0 8px 30px rgba(31,38,34,.04);
+    }
+    .note p:first-child{margin-top:0}.note p:last-child{margin-bottom:0}
+    .path{
+      display:grid; gap:16px; margin:36px 0 56px;
+      font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;
+    }
+    .path-item{
+      padding:18px 20px; border-left:3px solid var(--accent); background:var(--accent-soft); border-radius:0 14px 14px 0;
+    }
+    .path-item small{display:block;color:var(--muted);margin-bottom:2px}
+    article{
+      padding:48px 0; border-top:1px solid var(--line);
+    }
+    .number{font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,sans-serif;color:var(--muted);font-size:.8rem;letter-spacing:.12em}
+    h2{font-size:clamp(1.6rem,4vw,2.35rem); line-height:1.25; margin:.45rem 0 .4rem;}
+    .article-meta{color:var(--muted); font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif; font-size:.9rem; margin-bottom:24px;}
+    h3{font-size:1rem; font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif; margin:32px 0 8px; color:var(--accent);}
+    blockquote{
+      margin:26px 0; padding:8px 0 8px 20px; border-left:3px solid var(--accent);
+      font-size:1.12rem; color:#35453c;
+    }
+    .question{
+      margin-top:28px; padding:20px 22px; border-radius:16px; background:var(--paper); border:1px solid var(--line);
+    }
+    .question strong{display:block; font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif; font-size:.82rem; letter-spacing:.08em; color:var(--muted); margin-bottom:8px;}
+    .button{
+      display:inline-block; margin-top:20px; text-decoration:none; padding:11px 16px; border-radius:999px;
+      background:var(--ink); color:#fff; font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif; font-size:.9rem;
+    }
+    footer{padding:58px 0 80px; border-top:1px solid var(--line); color:var(--muted); font-size:.92rem;}
+    .closing{font-size:1.18rem;color:var(--ink)}
+    @media (max-width:640px){
+      .wrap{width:min(var(--max), calc(100% - 28px));}
+      header{padding:48px 0 30px}
+      .note{padding:22px; margin-bottom:42px}
+      article{padding:38px 0}
+      body{line-height:1.78}
+      .button{display:block;text-align:center;width:100%}
+    }
+    @media (prefers-color-scheme:dark){
+      :root{--bg:#171a18;--paper:#202522;--ink:#edf1ed;--muted:#a7b0aa;--line:#363d39;--accent:#9db8a6;--accent-soft:#26342c}
+      .button{background:#edf1ed;color:#171a18}
+      blockquote{color:#d8e2db}
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="eyebrow">Reading Garden · Issue 001</div>
+    <h1>Becoming</h1>
+    <div class="subtitle">我们不是先完成自己，再开始生活。</div>
+    <div class="meta">知识策展 · Selfhood / Dwelling / Conversation</div>
+  </header>
+
+  <main class="wrap">
+    <section class="note">
+      <p>这三篇文章从自我、空间与对话三个方向，指向同一个命题：</p>
+      <p><strong>很多重要的东西，不是先完成再进入世界，而是在与世界持续互动的过程中逐渐成形。</strong></p>
+      <p>我们不是先成为一个完整的人，然后才开始行动；家也不是一栋完成后等待我们入住的建筑；甚至很多真正重要的思想，也不是一个人在脑内独立完成的。</p>
+    </section>
+
+    <section class="path" aria-label="阅读路径">
+      <div class="path-item"><small>01 · Becoming a self</small>我如何通过行动成为自己？</div>
+      <div class="path-item"><small>02 · Becoming at home</small>一个宜居的人生，是否也应该永远留有改造空间？</div>
+      <div class="path-item"><small>03 · Becoming together</small>有些思想，是否只有进入关系以后才会出现？</div>
+    </section>
+
+    <article>
+      <div class="number">01 / SELF</div>
+      <h2>How to think like a Hegelian</h2>
+      <div class="article-meta">Jeffrey Reid · Psyche · 约 27 分钟 · 免费</div>
+      <h3>核心命题</h3>
+      <p>自我不是一个躲在身体里的固定实体。思考本身具有能动性：我们的判断、欲望、习惯与行动，都在持续把某一种“我”带进现实。</p>
+      <blockquote>与其反复问“我到底是谁”，不如观察：我的思考与行动，正在使怎样的自己成为现实。</blockquote>
+      <h3>为什么值得读</h3>
+      <p>它不提供一套快速自我成长技巧，而是重新定义了 selfhood、agency、habit 与 recognition。尤其值得留意的是：习惯并非简单的自动化，而是让身体逐渐成为意志能够自然表达的载体；真正的自我认识，也离不开与他人的相互承认。</p>
+      <div class="question"><strong>带走一个问题</strong>我的思考正在使什么成为现实？</div>
+      <a class="button" href="https://psyche.co/guides/how-to-think-like-a-hegelian" target="_blank" rel="noopener">阅读原文 ↗</a>
+    </article>
+
+    <article>
+      <div class="number">02 / HOME</div>
+      <h2>The neverending house</h2>
+      <div class="article-meta">Consuelo Araos · Aeon · 2026-08-14 · 约 24 分钟 · 免费</div>
+      <h3>核心命题</h3>
+      <p>人与关系、生活和房子不是先后发生，而是在时间里一起 becoming。一个真正宜居的系统，可能恰恰因为保留了“未完成性”，才能容纳家庭生命周期中的新关系、新冲突和新可能。</p>
+      <blockquote>也许真正宜居的人生，并不是设计得最完整的人生，而是一个允许自己不断增建、拆墙、修补和重新分配空间的系统。</blockquote>
+      <h3>为什么值得读</h3>
+      <p>它把抽象的“人生系统”落回最具体的居住经验：房子不是容器，而是关系的物质化。空间会记录亲密、距离、允许、拒绝、独立与依赖。</p>
+      <div class="question"><strong>带走一个问题</strong>我现在生活里有哪些东西，被我误以为应该尽快“完成”，其实更适合保持为一个可以持续生长的结构？</div>
+      <a class="button" href="https://aeon.co/essays/the-art-of-dwelling-in-santiagos-self-built-homes" target="_blank" rel="noopener">阅读原文 ↗</a>
+    </article>
+
+    <article>
+      <div class="number">03 / TOGETHER</div>
+      <h2>How Conversations Can Shape Reality</h2>
+      <div class="article-meta">Kristen French · Nautilus · 2026-08-25 · 约 13 分钟 · 免费</div>
+      <h3>核心命题</h3>
+      <p>认知并不完全位于一个人的头脑里。记忆、未来想象与意义，会在高质量的对话中共同生成。分享也不一定是“我想完整了，再告诉你”，它可以是让一个尚未完成的想法进入关系。</p>
+      <blockquote>有些思想，不是被一个人想出来的，而是在两个人之间发生的。</blockquote>
+      <h3>为什么值得读</h3>
+      <p>它让 collaborative memory、deliberative assembly 与 rapport 这些概念连接起来：我们不仅共同回忆，也共同模拟未来；真正善于获得信息的人，往往不是更强势，而是更能建立开放、尊重且非防御性的关系。</p>
+      <div class="question"><strong>带走一个问题</strong>我生命里有没有一些问题，一直试图独自想明白，但其实需要通过一段高质量对话才能真正被想出来？</div>
+      <a class="button" href="https://lede-v2.nautil.us/how-conversations-can-shape-reality-1284420" target="_blank" rel="noopener">阅读原文 ↗</a>
+    </article>
+
+    <footer>
+      <p class="closing"><strong>Read → Think → Connect → Curate</strong></p>
+      <p>Reading Garden 不试图收集所有“值得读”的文章。它只留下那些真正改变了我们看问题方式的东西，并记录它们之间慢慢出现的联系。</p>
+    </footer>
+  </main>
+</body>
+</html>
